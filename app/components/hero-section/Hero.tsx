@@ -78,26 +78,21 @@ export default function Hero() {
           <motion.div
             animate={handWaveAnimation}
             style={{ transformOrigin: "bottom right" }}
-            className="col-span-3"
+            className="text-xl smm:text-2xl mb-3 smm:mb-0 lg:text-3xl col-span-6 inline"
           >
-            <Image
-              src="/hand-wave.svg"
-              width={30}
-              height={30}
-              alt="hand-waving"
-            />
+            👋🏻
           </motion.div>
         </motion.div>
-        <motion.h1
+        <motion.h1 
           className="text-[32px] smm:text-[40px] md:text-5xl lg:text-6xl xl:text-7xl leading-tight font-bold"
           initial={{ opacity: 0 }}
           animate={animateIn1}
         >
           <p className="text-white/60 inline">I&apos;m </p>
-          <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#7CC0C4] via-[#548FBA] to-[#3C84C7]">
-            Adeola Badero
+          <span className="bg-gradient-to-br bg-clip-text text-transparent from-[#c47c7c] via-[#ba5454] to-[#c73c3c]">
+            Dominik Zurawciz
           </span>
-          <p>a Software Engineer</p>
+          <p>a UX / Interaction Designer</p>
         </motion.h1>
 
         <motion.p
@@ -105,7 +100,7 @@ export default function Hero() {
           animate={animateIn2}
           className="text-white/40  text-xl smm:text-2xl lg:text-3xl xl:text-4xl mt-3 smm:mt-6 "
         >
-          currently focused on building user experiences that drive growth.
+          graduating summer 2025, looking for opportunities post-graduation.
         </motion.p>
       </div>
 
@@ -119,7 +114,7 @@ export default function Hero() {
           animate={animateIn1}
         >
           <Image
-            src="/transparent-ade-min.png"
+            src="/dominik-min.jpeg"
             priority
             fill
             alt="Ade's picture"

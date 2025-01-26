@@ -1,10 +1,10 @@
 {
-  "name": "ade-folio",
+  "name": "porfolio-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && touch ./out/.nojekyll",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,7 +17,7 @@
     "dotenv": "^16.4.5",
     "framer-motion": "^11.2.10",
     "intersection-observer": "^0.12.2",
-    "next": "14.2.15",
+    "next": "^14.2.23",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.52.1",

@@ -10,9 +10,9 @@ import { ViewProvider } from "@/contexts/ViewContext";
 const kumbhSans = Kumbh_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adeola Badero — Frontend Software Engineer",
+  title: "Dominik Zurawicz - UX/Interaction Designer, Artist",
   description:
-    "A Frontend Engineer passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+    "A UX designer, with a focus in User Centred Interaction design, and with previous experience at the Scottish Government. ",
   keywords: [
     "frontend",
     "react",
@@ -29,9 +29,9 @@ export const metadata: Metadata = {
     "portfolio",
   ],
   openGraph: {
-    title: "Adeola Badero — Frontend Software Engineer",
+    title: "Dominik Zurawicz - UX/Interaction Designer, Artist",
     description:
-      "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
+      "A UX designer, with a focus in User Centred Interaction design, and with previous experience at the Scottish Government.",
     url: "https://www.adeolabadero.me",
     siteName: "www.adeolabadero.me",
     images: [
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
         url: "https://i.ibb.co/FKMqc28/adeola-badero.png",
         width: 1200,
         height: 630,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Dominik Zurawicz - UX/Interaction Designer, Artist",
       },
       {
         url: "https://i.ibb.co/Y8hBTR4/ade-800.png",
         width: 800,
         height: 800,
-        alt: "Adeola Badero — Frontend Software Engineer",
+        alt: "Dominik Zurawicz - UX/Interaction Designer, Artist",
       },
     ],
     locale: "en-US",
@@ -53,10 +53,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adeola Badero — Software Engineer",
+    title: "Dominik Zurawicz - Designer",
     description:
-      "Frontend Engineer at Bluechip Technologies, passionate about crafting next-gen software. I drive growth by crafting user experiences that blend aesthetics with functionality through my design and development skills. I thrive on turning ideas into seamless digital solutions.",
-    creator: "@Ade_the_great",
+      "A UX designer, with a focus in User Centred Interaction design, and with previous experience at the Scottish Government. ",
+    creator: "@dominikzurawicz",
     images: ["https://i.ibb.co/FKMqc28/adeola-badero.png"],
   },
   robots: {
